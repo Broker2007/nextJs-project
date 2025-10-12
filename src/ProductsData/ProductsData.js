@@ -1,5 +1,10 @@
 import lul from "@/assets/product/lulka.jpg"
 import buk from "@/assets/product/bakforwater.jpg"
+import opora from "@/assets/product/opora.jpg"
+import kont_otx from "@/assets/product/kont_otx.jpg"
+import kont_z_detail from "@/assets/product/kont_z_detail.jpg"
+import zaxvat from "@/assets/product/zaxvat.jpg"
+import tel2 from "@/assets/product/tel2.jpg"
 import cas from "@/assets/product/щиты.jpg"
 import cas2 from "@/assets/product/cas2.jpg"
 import zax from "@/assets/product/zaxmarsh.jpg"
@@ -50,6 +55,46 @@ import React from "react";
 
 
 const ProductsData = [
+     
+    {
+        id:237888,
+        title:"Контейнер для закладных деталей",
+        categories:1,
+        src: kont_z_detail,
+        description: "Контейнер для закладных деталей предназначен для транспортировки закладных деталей, а также арматурных конструкций не большого размера грузоподъёмность 1000кг.",
+        characteristic: [
+            {
+                titleC: "Уточните по номеру:",
+                descriptionC: "+7 (901) 181-11-12"
+            }
+        ]
+    },
+    {
+        id:236888,
+        title:"Тележка для панелей",
+        categories:1,
+        src: tel2,
+        description: "Тележка для панелей предназначена для перевозки и транспортировки облицовочных панелей лифта. Имеет широкий спектр применения.",
+        characteristic: [
+            {
+                titleC: "Уточните по номеру:",
+                descriptionC: "+7 (901) 181-11-12"
+            }
+        ]
+    },
+    {
+        id:235888,
+        title:"Контейнер для отходов",
+        categories:1,
+        src: kont_otx,
+        description: "Контейнер предназначен для отходов металлообработки (металлической стружки)",
+        characteristic: [
+            {
+                titleC: "Уточните по номеру:",
+                descriptionC: "+7 (901) 181-11-12"
+            }
+        ]
+    },
     {
         id:12,
         title:"Тары для раствора",
@@ -171,6 +216,19 @@ const ProductsData = [
                 titleC: "Масса",
                 descriptionC: "100кг"
             },
+        ]
+    },
+    {
+        id:237888,
+        title:"Грузозахват для лестничных маршей",
+        categories:1,
+        src: zaxvat,
+        description: "Грузозахватное приспособление для лестничных маршей Н=220мм предназначен для монтажа лестничных маршей. Зев вилочного захвата определяется толщиной лестничного марша в мм. и может быть изготовлен на заказ не стандартных размеров.",
+        characteristic: [
+            {
+                titleC: "Уточните по номеру:",
+                descriptionC: "+7 (901) 181-11-12"
+            }
         ]
     },
     {
@@ -435,6 +493,19 @@ const ProductsData = [
         categories:1,
         src: sahtlift,
         description: "Опорная площадка, которая служит опорой для опалубочного оборудования при бетонировании стен и перекрытий лифтовых шахт.Площадка лифтовой шахты служит опорной площадкой при монтаже внутренних щитов опалубки шахт и обеспечивает безопасную работу монтажников при монтаже опалубки и проведении работ по заливке бетона.Размер площадки: может быть изменён путём фиксации опорных балок, их конструкция позволяет сделать это с шагом 1 см.",
+        characteristic: [
+            {
+                titleC: "Уточните по номеру:",
+                descriptionC: "+7 (901) 181-11-12"
+            }
+        ]
+    },
+    {
+        id:234,
+        title:"Опора для труб",
+        categories:1,
+        src: opora,
+        description: "Опора для труб L=798мм предназначена для крепления сантехнических труб, подвесного оборудовани",
         characteristic: [
             {
                 titleC: "Уточните по номеру:",
