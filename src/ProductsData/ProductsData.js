@@ -57,7 +57,7 @@ import React from "react";
 const ProductsData = [
      
     {
-        id:237888,
+        id:2378,
         title:"Контейнер для закладных деталей",
         categories:1,
         src: kont_z_detail,
@@ -219,7 +219,7 @@ const ProductsData = [
         ]
     },
     {
-        id:237888,
+        id:23744,
         title:"Грузозахват для лестничных маршей",
         categories:1,
         src: zaxvat,
