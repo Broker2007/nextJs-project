@@ -14,7 +14,7 @@ import MyForm from "@/components/ui/MyForm/MyForm";
 
 import ContactSection from "@/components/ContactSection/ContactSection";
 function Products() {
-    const categories = ["Все", "Строительная оснастка", "Металлообработка"];
+    const categories = ["Все", "Строительная оснастка", "Металлообработка", "Разное"];
     const [search, setSearch] = useState("");
     const [categoriesId, setCategoriesId] = useState(0);
     const [showAll, setShowAll] = useState(false);
