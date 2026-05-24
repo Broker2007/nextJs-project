@@ -5,7 +5,7 @@ import MyArea from "@/components/ui/MyArea/MyArea";
 import MyButtonForm from "@/components/ui/MyButtonForm/MyButtonForm";
 import MyInput from "@/components/ui/MyInput/MyInput";
 
-export default function myForm(props) {
+export default function MyForm(props) {
     const [inputs, setInputs] = useState({
         name: '',
         number: '',
@@ -65,6 +65,7 @@ export default function myForm(props) {
                     value={inputs.name}
                     onChange={handleChange}
                     placeholder='Ваше имя'
+                    aria-label='Ваше имя'
                     className={"mt-25 inputField w-100"}
                     maxLength={40}
                     required
@@ -75,6 +76,7 @@ export default function myForm(props) {
                     value={inputs.number}
                     onChange={handleChange}
                     placeholder='Ваш номер'
+                    aria-label='Ваш телефон'
                     maxLength={40}
                     className={"inputField w-100"}
                     required
@@ -85,6 +87,7 @@ export default function myForm(props) {
                     value={inputs.message}
                     onChange={handleChange}
                     placeholder='Ваш вопрос'
+                    aria-label='Ваш вопрос'
                     maxLength={400}
 
                     required

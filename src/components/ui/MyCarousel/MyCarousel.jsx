@@ -75,7 +75,7 @@ const MyCarousel = ({ data }) => {
                                 />
                             </div>
                         </div>
-                        <Image src={item.src} alt="carousel image" className="image_homepage image_block_none" />
+                        <Image src={item.src} alt="carousel image" width={1200} height={800} className="image_homepage image_block_none" />
                     </div>
                 ))}
                 <div className="arrow_parent d-f gap25">

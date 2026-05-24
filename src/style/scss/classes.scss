@@ -466,7 +466,7 @@
 }
 
 .jc-s {
-  justify-content: start;
+  justify-content: flex-start;
 }
 .jc-sp {
   justify-content: space-between;
@@ -1429,7 +1429,7 @@
     }
     .display_about{
       display: flex;
-      justify-content: start;
+      justify-content: flex-start;
     }
     .max_width500{
       max-width: 100%;
@@ -1464,7 +1464,7 @@
     }
     .display_about{
       display: flex;
-      justify-content: start;
+      justify-content: flex-start;
     }
     .max_width500{
       max-width: 100%;
@@ -1535,7 +1535,7 @@
       max-width: 100%;
     }
     .carousel{
-      justify-content: start;
+      justify-content: flex-start;
     }
     .container{
       margin-left:1%;
@@ -1676,7 +1676,7 @@
 .grid_products{
   margin-left: 40px;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 20px;
   flex-wrap: wrap;
 }
@@ -1856,7 +1856,7 @@
 .header__nav{
   display: flex;
   gap: 20px;
-  justify-content: start;
+  justify-content: flex-start;
 
 }
 
@@ -2210,7 +2210,7 @@
 
     .grid_products{
       margin-left: 0;
-      justify-content: start;
+      justify-content: flex-start;
       display: flex;
       align-items: center;
       flex-wrap: wrap;
@@ -2235,7 +2235,7 @@
     }
     .grid_products{
       display: flex;
-      justify-content: start;
+      justify-content: flex-start;
       gap: 10px;
       flex-wrap: wrap;
       margin-left: 70px;
@@ -2244,7 +2244,7 @@
   @include lg{
     .grid_products{
       display: flex;
-      justify-content: start;
+      justify-content: flex-start;
       gap: 20px;
       flex-wrap: wrap;
     }
@@ -2256,7 +2256,7 @@
     .grid_products{
       margin-left: 40px;
       display: flex;
-      justify-content: start;
+      justify-content: flex-start;
       gap: 20px;
       flex-wrap: wrap;
     }
@@ -2280,7 +2280,7 @@
 .filter{
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   gap: 10px;
 }

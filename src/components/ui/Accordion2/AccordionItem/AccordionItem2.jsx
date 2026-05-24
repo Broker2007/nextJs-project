@@ -37,7 +37,7 @@ const AccordionItem2 = ({data, onClick,isOpen,accorRef, setAccorRef,windowSize,b
         <li className={cl.accordion_item}>
             <button className={`${cl.accordion_header} d-f jc-sp`} onClick={() =>clickArrow() }>
                 <p className={"text4"}>{data.accordion_title}</p>
-                <Image src={arrow1} className={`${cl.accordion_arrow} ${isOpen ? cl.active : cl.acc}`}/>
+                <Image alt="изображение" src={arrow1} className={`${cl.accordion_arrow} ${isOpen ? cl.active : cl.acc}`}/>
             </button>
             <span className={cl.spanHr}></span>
             {/*${isOpen ? "height_accordion_collapse" : "height_accordion_collapse_none"}*/}

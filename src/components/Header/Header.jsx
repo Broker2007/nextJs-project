@@ -1,4 +1,5 @@
 "use client"
+import { COMPANY_PHONE, COMPANY_PHONE_2, COMPANY_EMAIL } from "@/constants/info";
 import React, { useState, useEffect, useRef } from "react";
 import { useClickOutside } from "@/hooks/useClickOutside";
 import logo_main from '@/assets/logo_vek.png'
@@ -71,17 +72,16 @@ function Header() {
   return (
       <header className="header">
           <Link href={"/"} >
-              <Image src={logo_main} className={"image_logo"}/>
+              <Image alt="изображение" src={logo_main} className={"image_logo"}/>
           </Link>
 
           <nav className={`header__nav ${isOpenMenu ? "active" : ""}`} ref={menuRef}>
               <ul className={"header__nav-list"}>
                   {links.map((link, index) => {
                       return (
-                          <li className="header__nav-item">
+                          <li className="header__nav-item" key={index}>
                               <Link
                                   href={link.path}
-                                  key={index}
                                   className={`${pathname === link.path ? cl.link_header : "color_nav"} ${cl.link_hover} text1 header__nav-item`}
                               >
                                   {link.name}
@@ -92,9 +92,9 @@ function Header() {
               </ul>
           </nav>
           <div className={"d-f ai-cen gap10 number_nav"}>
-              <Image src={phone_header} width={25} height={25}/>
+              <Image alt="изображение" src={phone_header} width={25} height={25}/>
               <p className={"text1"}>
-                  +7 (901) 181-11-12
+                  {COMPANY_PHONE}
               </p>
           </div>
           <MenuButton isActive={isOpenMenu} onClick={() => setOpenMenu(!isOpenMenu)} />

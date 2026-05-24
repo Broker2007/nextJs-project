@@ -1,4 +1,5 @@
 "use client";
+import { COMPANY_PHONE, COMPANY_PHONE_2, COMPANY_EMAIL } from "@/constants/info";
 import Image from "next/image";
 import location from "@/assets/Location.svg";
 import mail from "@/assets/Message.svg";
@@ -7,6 +8,7 @@ import MyForm from "@/components/ui/MyForm/MyForm";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 
+import ContactSection from "@/components/ContactSection/ContactSection";
 // Динамический импорт YMaps и Map (отключаем SSR и загружаем по запросу)
 const YMaps = dynamic(() => import("@pbe/react-yandex-maps").then((mod) => mod.YMaps), { ssr: false, loading: () => <p>Загрузка карты...</p> });
 const Map = dynamic(() => import("@pbe/react-yandex-maps").then((mod) => mod.Map), { ssr: false });
@@ -59,15 +61,15 @@ const Contact = () => {
                         </div>
                         <div className={"d-f jc-s ai-cen gap25 mt-30"}>
                             <Image src={phone} width={40} height={40} alt="phone" />
-                            <p className={"text_company"}>+7 (901) 181-11-12 <span className={"text_gray"}>(Отдел продаж)</span></p>
+                            <p className={"text_company"}>{COMPANY_PHONE} <span className={"text_gray"}>(Отдел продаж)</span></p>
                         </div>
                         <div className={"d-f jc-s ai-cen gap25 mt-30"}>
                             <Image src={phone} width={40} height={40} alt="phone" />
-                            <p className={"text_company"}>+7 (903) 117-59-07 <span className={"text_gray"}>(Отдел продаж)</span></p>
+                            <p className={"text_company"}>{COMPANY_PHONE_2} <span className={"text_gray"}>(Отдел продаж)</span></p>
                         </div>
                         <div className={"d-f jc-s ai-cen gap25 mt-30"}>
                             <Image src={mail} width={40} height={40} alt="mail" />
-                            <p className={"text_company"}>pk-vektor@internet.ru</p>
+                            <p className={"text_company"}>{COMPANY_EMAIL}</p>
                         </div>
                     </div>
                     <div className={"d-f gap25 ai-start block2"}>
@@ -97,14 +99,7 @@ const Contact = () => {
                         <p className={"text3 mt-5"}>ВОПРОСЫ</p>
                     </div>
                 </div>
-                <div className={"d-f flex-wrap jc-sp ai-s quection_contact_parent gap30"}>
-                    <div className={"quection_contact"}>
-                        <p className={"text6"}>ОСТАЛИСЬ ВОПРОСЫ ?</p>
-                        <p className={"text_company"}>Или нужна консультация?<br/> Заполните форму или позвоните нам</p>
-                        <div className={"text1_yellow mt-10 ai-cen jc-cen d-f"}><div><Image src={phone} className={"img_contact"}/> <span className={"ml-10"}>+7 (901) 181-11-12</span></div></div>
-                    </div>
-                    <MyForm className={"max_width380"}/>
-                </div>
+                <ContactSection />
 
             </div>
         </main>

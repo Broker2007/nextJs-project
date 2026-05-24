@@ -11,7 +11,7 @@ const AccordionItem = ({data, onClick,isOpen}) => {
                 <p className={cl.text_header}>
                     {data.title}
                 </p>
-                <Image src={arrow1} className={`${cl.accordion_arrow} ${isOpen && cl.active}`}/>
+                <Image alt="изображение" src={arrow1} className={`${cl.accordion_arrow} ${isOpen && cl.active}`}/>
             </button>
             <span className={cl.spanHr}></span>
             <div className={`${cl.accordion_collapse}`} style = {

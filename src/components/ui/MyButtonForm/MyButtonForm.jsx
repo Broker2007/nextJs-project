@@ -8,9 +8,9 @@ const MyButtonForm = ({children,loading,...props}) => {
             {loading === 'loading' ? (
                 <span className="loading-icon perpetuum-mobile"></span>
             ) : loading === 'error' ? (
-                <Image src={upload} width={18} height={18}/>
+                <Image alt="изображение" src={upload} width={18} height={18}/>
             ) : (
-                <Image src={upload} width={18} height={18}/>
+                <Image alt="изображение" src={upload} width={18} height={18}/>
             )}
 
 

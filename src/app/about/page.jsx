@@ -1,3 +1,4 @@
+import { COMPANY_PHONE, COMPANY_PHONE_2, COMPANY_EMAIL } from "@/constants/info";
 import React from 'react';
 import cl from "@/app/page.module.scss";
 import Image from "next/image";
@@ -10,6 +11,7 @@ import order from "@/assets/order.svg"
 import milling from "@/assets/milling.svg"
 import delivery from "@/assets/delivery.svg"
 import MyForm from "@/components/ui/MyForm/MyForm";
+import ContactSection from "@/components/ContactSection/ContactSection";
 const About = () => {
     return (
         <main className={"adaption_about"}>
@@ -51,7 +53,7 @@ const About = () => {
                         </p>
                     </div>
                     <div>
-                        <Image src={image_bgc_about} className={"image_block_none"}/>
+                        <Image alt="изображение" src={image_bgc_about} className={"image_block_none"}/>
                     </div>
                 </div>
             </div>
@@ -59,7 +61,7 @@ const About = () => {
             <div className={"container d-f jc-sa mt-100 flex-wrap d_none_md"}>
                 <div className={"card mt-100 pr-40 pl-40 pb-40 max_width380 text-align-cen card_position"}>
 
-                        <Image src={milling} className={"image_card"} width={150} height={150}/>
+                        <Image alt="изображение" src={milling} className={"image_card"} width={150} height={150}/>
                         <p className={"mt-100 text6"}>Наше оборудование</p>
                         <p className={"text_company  mt-25"}>
                             Более 10 станков для выполнения всех видов работ
@@ -67,7 +69,7 @@ const About = () => {
                 </div>
                 <div className={"card mt-100 pr-40 pl-40 pb-40 max_width380 text-align-cen card_position"}>
 
-                    <Image src={order} className={"image_card"} width={140} height={140}/>
+                    <Image alt="изображение" src={order} className={"image_card"} width={140} height={140}/>
                     <p className={"mt-100 text3 hei74"}>Заказы</p>
                     <p className={"text_company  mt-25"}>
                         Более 100 успешно выполненных заказов за прошлый год
@@ -75,7 +77,7 @@ const About = () => {
                 </div>
                 <div className={"card mt-100 pr-40 pl-40 pb-40 max_width380 text-align-cen card_position"}>
 
-                    <Image src={delivery} className={"image_card"} width={180} height={180}/>
+                    <Image alt="изображение" src={delivery} className={"image_card"} width={180} height={180}/>
                     <p className={"mt-100 text3 hei74"}>Доставка</p>
                     <p className={"text_company  mt-25 d-f ai-cen"}>
                         Наша компания производит доставку продукции по всей территории РФ
@@ -85,7 +87,7 @@ const About = () => {
             <div className={"container mt-100"}>
                 <div className={"mt-50 d-f display_about"}>
                     <div>
-                        <Image src={image_bgc2_about} className={"image_block_none"}/>
+                        <Image alt="изображение" src={image_bgc2_about} className={"image_block_none"}/>
                     </div>
                     <div className={"max_width500"}>
                         <p className={"text6"}>
@@ -163,7 +165,7 @@ const About = () => {
                         </p>
                     </div>
                     <div>
-                        <Image src={image_bgc3_about} className={"image_block_none"}/>
+                        <Image alt="изображение" src={image_bgc3_about} className={"image_block_none"}/>
                     </div>
                 </div>
             </div>
@@ -177,14 +179,7 @@ const About = () => {
                         <p className={"text3 mt-5"}>ВОПРОСЫ</p>
                     </div>
                 </div>
-                <div className={"d-f flex-wrap jc-sp ai-s quection_contact_parent gap30"}>
-                    <div className={"quection_contact"}>
-                        <p className={"text6"}>ОСТАЛИСЬ ВОПРОСЫ ?</p>
-                        <p className={"text_company"}>Или нужна консультация?<br/> Заполните форму или позвоните нам</p>
-                        <div className={"text1_yellow mt-10 ai-cen jc-cen d-f gap10"}><Image src={phone} className={"img_contact"}/> <span className={"ml-10"}>+7 (901) 181-11-12</span></div>
-                    </div>
-                    <MyForm className={"max_width380"}/>
-                </div>
+                <ContactSection />
 
             </div>
         </main>

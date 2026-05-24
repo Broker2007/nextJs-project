@@ -1,11 +1,10 @@
-"use client"
+import { COMPANY_PHONE, COMPANY_PHONE_2, COMPANY_EMAIL } from "@/constants/info";
 import cl from "./page.module.scss";
 import bg from "../assets/bgc_main.jpg"
 import svar from "../assets/svarshik.jpg"
 import bg2 from "../assets/bgc_main2.jpg"
 import image1 from "../assets/image1.png"
 import image_Carousel1 from "../assets/bgc_min2.jpg"
-import image_Carousel2 from "../assets/product/Image_Carousel2.jpg"
 import bgc_mainLine from "../../public/bgc_main_line.jpg"
 import phone from "@/assets/Calling.svg"
 import Image from "next/image";
@@ -13,7 +12,9 @@ import MyCarousel from "@/components/ui/MyCarousel/MyCarousel";
 import MyButton from "@/components/ui/MyButton/MyButton";
 import MyForm from "@/components/ui/MyForm/MyForm";
 import Footer from "@/components/Footer/Footer";
-import React, {useEffect, useState} from "react";
+import React from "react";
+
+import ContactSection from "@/components/ContactSection/ContactSection";
 export default function Home() {
 
     const slides = [
@@ -40,7 +41,7 @@ export default function Home() {
                 }
         },
         {
-            src: image_Carousel2,
+            src: "/product/Image_Carousel2.jpg",
             "alt": "Image 1 for carousel",
             action:
                 {
@@ -118,7 +119,7 @@ export default function Home() {
             <div className={"mt-50 image_block_none"} style={bgc_main}>
 
             </div>
-            {/*<Image src={bg} className={`${cl.image_main} mt-50`}/>*/}
+            {/*<Image alt="изображение" src={bg} className={`${cl.image_main} mt-50`}/>*/}
         </div>
         <div className={"bgc_gray1 mt-100 pt-30 pb-30"}>
             <div className={"container"}>
@@ -141,7 +142,7 @@ export default function Home() {
                             Также мы обслуживаем широкий спектр клиентов, включая крупные строительные компании, заводы, предприятия энергетического сектора и др. Мы находимся в постоянном поиске новых партнеров и возможностей для сотрудничества.
                         </p>
                     </div>
-                    <Image src={bg2} className={"maxWidthHeight image_block_none"}/>
+                    <Image alt="изображение" src={bg2} className={"maxWidthHeight image_block_none"}/>
                 </div>
             </div>
         </div>
@@ -171,7 +172,7 @@ export default function Home() {
                     </p>
                 </div>
                 <div>
-                    <Image src={svar} className={"image_block_none border_rad"} width={600} height={450}/>
+                    <Image alt="изображение" src={svar} className={"image_block_none border_rad"} width={600} height={450}/>
                 </div>
             </div>
         </div>
@@ -224,14 +225,7 @@ export default function Home() {
                     <p className={"text3 mt-5"}>ВОПРОСЫ</p>
                 </div>
             </div>
-            <div className={"d-f flex-wrap jc-sp ai-s quection_contact_parent gap30"}>
-                <div className={"quection_contact"}>
-                    <p className={"text6"}>ОСТАЛИСЬ ВОПРОСЫ ?</p>
-                    <p className={"text_company"}>Или нужна консультация?<br/> Заполните форму или позвоните нам</p>
-                    <div className={"text1_yellow mt-10 ai-cen jc-cen d-f gap10"}><Image src={phone} className={"img_contact"}/> <span className={"ml-10"}>+7 (901) 181-11-12</span></div>
-                </div>
-                <MyForm className={"max_width380"}/>
-            </div>
+            <ContactSection />
 
         </div>
     </main>

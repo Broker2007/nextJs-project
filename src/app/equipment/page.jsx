@@ -1,3 +1,4 @@
+import { COMPANY_PHONE, COMPANY_PHONE_2, COMPANY_EMAIL } from "@/constants/info";
 import React from 'react';
 import Image from "next/image";
 import cam from "@/assets/equipment/cam.jpg";
@@ -10,6 +11,7 @@ import stan3 from "@/assets/equipment/stan3.jpg";
 import block from "@/assets/equipment/block.jpg";
 import phone from "@/assets/Calling.svg";
 import MyForm from "@/components/ui/MyForm/MyForm";
+import ContactSection from "@/components/ContactSection/ContactSection";
 const MyEquipment = [
     {
         // title: "Камера порошковой окраски",
@@ -85,7 +87,7 @@ const Equipment = () => {
                     {MyEquipment.map((item,i) => {
                         return (
                            <div>
-                                <Image src={item.src} className={"border_rad"}/>
+                                <Image alt="изображение" src={item.src} className={"border_rad"}/>
                            </div>
                            
                         )
@@ -94,7 +96,7 @@ const Equipment = () => {
                 
  {/* <div className={`${i+1 !== MyEquipment.length && "border_bottom"} gap-10 mt-50 d-f jc-sp ai-cen pb-40 flex-wrap`}>
                                 <div className={"adapt_center"}>
-                                    <Image src={item.src} className={"border_rad"} width={600} height={450}/>
+                                    <Image alt="изображение" src={item.src} className={"border_rad"} width={600} height={450}/>
                                 </div>
                                 <div className={"max_width500"}>
                                     <p className={"text6"}>
@@ -117,14 +119,7 @@ const Equipment = () => {
                         <p className={"text3 mt-5"}>ВОПРОСЫ</p>
                     </div>
                 </div>
-                <div className={"d-f flex-wrap jc-sp ai-s quection_contact_parent gap30"}>
-                    <div className={"quection_contact"}>
-                        <p className={"text6"}>ОСТАЛИСЬ ВОПРОСЫ ?</p>
-                        <p className={"text_company"}>Или нужна консультация?<br/> Заполните форму или позвоните нам</p>
-                        <div className={"text1_yellow mt-10 ai-cen jc-cen d-f"}><div><Image src={phone} className={"img_contact"}/> <span className={"ml-10"}>+7 (901) 181-11-12</span></div></div>
-                    </div>
-                    <MyForm className={"max_width380"}/>
-                </div>
+                <ContactSection />
 
             </div>
         </main>

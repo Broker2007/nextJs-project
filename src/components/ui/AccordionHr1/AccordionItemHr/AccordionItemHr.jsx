@@ -15,7 +15,7 @@ const AccordionItemHr = ({ item, onClick, isOpen, length }) => {
             <button className="accordion-hr-header" onClick={() => onClick()}>
 
                 <span className={"accordion_span"}>{item.title} </span>
-                <Image src={arrow1} className={`${cl.accordion_arrow} ${isOpen && cl.active}`}/>
+                <Image alt="изображение" src={arrow1} className={`${cl.accordion_arrow} ${isOpen && cl.active}`}/>
 
             </button>
             <div
@@ -25,7 +25,7 @@ const AccordionItemHr = ({ item, onClick, isOpen, length }) => {
                 }}
             >
                 <div className={"d-f jc-sp"}>
-                    <Image src={item.image}/>
+                    <Image alt="изображение" src={item.image}/>
                     <div className={"ml-10"}>
                         <p className={"text6"}>{item.title}</p>
                         <p className={"text_company mt-25"}>{item.text}</p>

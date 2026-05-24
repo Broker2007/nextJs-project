@@ -1,4 +1,5 @@
 "use client";
+import { COMPANY_PHONE, COMPANY_PHONE_2, COMPANY_EMAIL } from "@/constants/info";
 
 import React, { useMemo, useState } from "react";
 import data from "@/ProductsData/ProductsData";
@@ -11,6 +12,7 @@ import MyButtonProduct from "@/components/ui/MyButtonProduct/MyButtonProduct";
 import phone from "@/assets/Calling.svg";
 import MyForm from "@/components/ui/MyForm/MyForm";
 
+import ContactSection from "@/components/ContactSection/ContactSection";
 function Products() {
     const categories = ["Все", "Строительная оснастка", "Металлообработка"];
     const [search, setSearch] = useState("");
@@ -72,7 +74,9 @@ function Products() {
                                     <div className="position_r">
                                         <Image
                                             src={itemData.src}
-                                            alt="карточка"
+                                            alt={itemData.title || "карточка"}
+                                            width={500}
+                                            height={500}
                                             className="image_cardP"
                                         />
                                         <div className="text-align-left">
@@ -114,14 +118,7 @@ function Products() {
                         <p className={"text3 mt-5"}>ВОПРОСЫ</p>
                     </div>
                 </div>
-                <div className={"d-f flex-wrap jc-sp ai-s quection_contact_parent gap30"}>
-                    <div className={"quection_contact"}>
-                        <p className={"text6"}>ОСТАЛИСЬ ВОПРОСЫ ?</p>
-                        <p className={"text_company"}>Или нужна консультация?<br/> Заполните форму или позвоните нам</p>
-                        <div className={"text1_yellow mt-10 ai-cen jc-cen d-f"}><div><Image src={phone} className={"img_contact"}/> <span className={"ml-10"}>+7 (901) 181-11-12</span></div></div>
-                    </div>
-                    <MyForm className={"max_width380"}/>
-                </div>
+                <ContactSection />
 
             </div>
 

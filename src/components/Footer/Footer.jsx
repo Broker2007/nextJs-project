@@ -16,12 +16,12 @@ const Footer = () => {
                 </p>
                 <div className={"logo_footer"}>
 
-                    <Image src={footer_bgc}/>
+                    <Image alt="изображение" src={footer_bgc}/>
                 </div>
                 <div className={"d-f jc-s gap25 ai-cen flex-wrap icons"}>
-                    <Image src={mail} width={40} height={40}/>
-                    <Image src={whatsapp} width={40} height={40}/>
-                    <Image src={tg} width={40} height={40}/>
+                    <Image alt="изображение" src={mail} width={40} height={40}/>
+                    <Image alt="изображение" src={whatsapp} width={40} height={40}/>
+                    <Image alt="изображение" src={tg} width={40} height={40}/>
                 </div>
             </div>
         </footer>
