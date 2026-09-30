@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf22cc6c-04d5-4755-a320-d9913c6d58f2" name="Changes" comment="Inal commit ffgfm Cre" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2s4aJchPJGyYWEdKtaae3oKG3UB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Работа/Заказ Леша/my-app/src/components/ui/Accordion2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Работа\Заказ Леша\my-app\src\components\ui\Accordion2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Работа\Заказ Леша\my-app\src\app\api\users" />
+      <recent name="D:\Работа\Заказ Леша\my-app\src\app" />
+      <recent name="D:\Работа\Заказ Леша\my-app\src\pages" />
+      <recent name="D:\Работа\Заказ Леша\my-app\src\app\pages" />
+      <recent name="D:\Работа\Заказ Леша\my-app\pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf22cc6c-04d5-4755-a320-d9913c6d58f2" name="Changes" comment="" />
+      <created>1737717232714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737717232714</updated>
+      <workItem from="1737717235450" duration="33639000" />
+      <workItem from="1737795879069" duration="24338000" />
+      <workItem from="1738002077435" duration="11718000" />
+      <workItem from="1738069881444" duration="17876000" />
+      <workItem from="1738158717895" duration="7587000" />
+      <workItem from="1738249848720" duration="12560000" />
+      <workItem from="1738426329171" duration="5026000" />
+      <workItem from="1738439379492" duration="20216000" />
+      <workItem from="1738513219160" duration="1705000" />
+      <workItem from="1738592617253" duration="25801000" />
+      <workItem from="1738678978135" duration="15598000" />
+      <workItem from="1738767461461" duration="18509000" />
+      <workItem from="1739211835396" duration="3767000" />
+      <workItem from="1739260555595" duration="4203000" />
+      <workItem from="1739310261364" duration="8935000" />
+      <workItem from="1739386155948" duration="5916000" />
+      <workItem from="1740163508698" duration="3520000" />
+      <workItem from="1740216088829" duration="3720000" />
+      <workItem from="1740317036562" duration="6499000" />
+      <workItem from="1740369741213" duration="3672000" />
+      <workItem from="1740424060864" duration="5301000" />
+      <workItem from="1740444781175" duration="2000" />
+      <workItem from="1740769785313" duration="3174000" />
+      <workItem from="1740924135109" duration="9000" />
+      <workItem from="1740924344806" duration="3000" />
+      <workItem from="1740982750410" duration="2381000" />
+      <workItem from="1740985180124" duration="1807000" />
+      <workItem from="1740987039075" duration="1976000" />
+      <workItem from="1741092498679" duration="1923000" />
+      <workItem from="1741283041024" duration="6174000" />
+      <workItem from="1741301588412" duration="924000" />
+      <workItem from="1741360781501" duration="337000" />
+      <workItem from="1741361162299" duration="389000" />
+      <workItem from="1741361572725" duration="269000" />
+      <workItem from="1741362571246" duration="2000" />
+      <workItem from="1741362579786" duration="5106000" />
+      <workItem from="1741437861259" duration="5797000" />
+      <workItem from="1741457995691" duration="5355000" />
+      <workItem from="1741480956764" duration="6642000" />
+      <workItem from="1741625026417" duration="2605000" />
+      <workItem from="1741627691060" duration="840000" />
+      <workItem from="1741674925391" duration="4000" />
+      <workItem from="1741726171249" duration="591000" />
+      <workItem from="1741947553977" duration="611000" />
+      <workItem from="1742120425425" duration="2512000" />
+      <workItem from="1742470566187" duration="29000" />
+      <workItem from="1742470788349" duration="3000" />
+      <workItem from="1743412476916" duration="3868000" />
+      <workItem from="1743423460157" duration="592000" />
+      <workItem from="1743892523016" duration="589000" />
+      <workItem from="1744480594035" duration="4248000" />
+      <workItem from="1744711025865" duration="11000" />
+      <workItem from="1744723766518" duration="590000" />
+      <workItem from="1744744574751" duration="591000" />
+      <workItem from="1746644249482" duration="2195000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit from Create Next App">
+      <created>1741301832742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741301832742</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit from Create Next App">
+      <created>1741301845988</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741301845988</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit from Create Next App">
+      <created>1741301973783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741301973783</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit from Create Next App">
+      <created>1741302061359</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741302061359</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit from Create Next App">
+      <created>1741302109891</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741302109891</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Initial commit from Create Next App">
+      <created>1741302157587</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741302157587</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial commit from Create Next App">
+      <created>1741302275048</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741302275048</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit from Create Next App" />
+    <MESSAGE value="Initial commit from Create" />
+    <MESSAGE value="Initial commit ffgfgfffdrom Create" />
+    <MESSAGE value="Initial commit ffgfgfm Create" />
+    <MESSAGE value="Initial commit ffgfm Create" />
+    <MESSAGE value="Inal commit ffgfm Cre" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inal commit ffgfm Cre" />
+  </component>
+</project>

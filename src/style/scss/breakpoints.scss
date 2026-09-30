@@ -1,0 +1,94 @@
+
+$breakpoints: (
+        xs: 320px,
+        sm: 576px,
+        md: 767px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1440px
+);
+
+// Mixins for each breakpoint
+@mixin xs {
+  $value: map-get($breakpoints, xs);
+  @media only screen and (min-width: #{$value}) {
+    @content;
+  }
+}
+
+@mixin xs-max {
+  $value: map-get($breakpoints, xs);
+  @media only screen and (max-width: #{$value}) {
+    @content;
+  }
+}
+
+@mixin sm {
+  $value: map-get($breakpoints, sm);
+  @media only screen and (min-width: #{$value}) {
+    @content;
+  }
+}
+
+@mixin sm-max {
+  $value: map-get($breakpoints, sm);
+  @media only screen and (max-width: #{$value}) {
+    @content;
+  }
+}
+
+@mixin md {
+  $value: map-get($breakpoints, md);
+  @media only screen and (min-width: #{$value}) {
+    @content;
+  }
+}
+
+@mixin md-max {
+  $value: map-get($breakpoints, md);
+  @media only screen and (max-width: #{$value}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  $value: map-get($breakpoints, lg);
+  @media only screen and (min-width: #{$value}) {
+    @content;
+  }
+}
+
+@mixin lg-max {
+  $value: map-get($breakpoints, lg);
+  @media only screen and (max-width: #{$value}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  $value: map-get($breakpoints, xl);
+  @media only screen and (min-width: #{$value}) {
+    @content;
+  }
+}
+
+@mixin xl-max {
+  $value: map-get($breakpoints, xl);
+  @media only screen and (max-width: #{$value}) {
+    @content;
+  }
+}
+
+@mixin xxl {
+  $value: map-get($breakpoints, xxl);
+  @media only screen and (min-width: #{$value}) {
+    @content;
+  }
+}
+
+@mixin xxl-max {
+  $value: map-get($breakpoints, xxl);
+  @media only screen and (max-width: #{$value}) {
+    @content;
+  }
+}

@@ -1,0 +1,23 @@
+@import "../style/scss/app.scss";
+.image_main{
+
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  object-fit: cover;
+  width: 100%;
+  max-height: 520px;
+}
+
+.byk {
+  padding:4px 10px;
+  border-radius: 50%;
+  border: 1px solid $black;
+  font-size:32px;
+}
+
+.spanHr {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: $gray1;
+}
